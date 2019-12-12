@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Galerija</title>
+	<link rel="stylesheet" href="CSS/style.css">
+
+</head>
+
+<body background = "img/poz.jpg">
+	<h2 id="vrh"></h2>
+	<header>
+		<div class="center"><img class="slikeNaslovna" src="slike/slika4.png"></div>
+			<nav>
+				<ul id = "meni">
+					<li><a href = "home.html">Početna</a></li>
+					<li><a href = "onama.html">O nama</a></li>
+					<li><a href = "prodavnica.html">Kupovina</a></li>
+					<li><a href = "katalog.html">Katalog</a></li>
+				</ul>
+			</nav>	
+	</header>	
+	
+	<div class="naslovnaKatalog">
+      <h2>Katalog</h2>
+      <p>Napomena: Prelaskom kursora preko slike prikazaće se cena i šifra modela.</p>
+    	
+		</div>
+
+	<div class="flex-container">
+			
+		<div class="podnaslov">Haljine </div>
+	
+    <a title="Šifra: 1 Cena: 15000">
+		<img class="imgmouse" src="img/haljina1.jpg" alt=""  />
+		</a>	
+		<a title="Šifra: 2 Cena: 16000">
+		<img class="imgmouse" src="img/haljina2.jpg" alt=""   />
+		</a>	
+		<a  title="Šifra: 3 Cena: 17000">
+		<img  class="imgmouse"  src="img/haljina3.jpg" alt=""  />
+    </a>
+    <a title="Šifra: 4 Cena: 15000">
+    <img class="imgmouse" src="img/haljina4.jpg" alt=""   />
+    </a>
+  </a>
+  <a title="Šifra: 5 Cena: 18000">
+  <img class="imgmouse" src="img/haljina5.jpg" alt=""   />
+  </a>
+</a>
+<a title="Šifra: 6 Cena: 18000">
+<img class="imgmouse" src="img/haljina6.jpg" alt=""   />
+</a>
+</a>
+<a title="Šifra: 7 Cena: 18000">
+<img class="imgmouse" src="img/haljina7.jpg" alt=""   />
+</a>
+</a>
+<a title="Šifra: 8 Cena: 18000">
+<img class="imgmouse" src="img/haljina8.jpg" alt=""   />
+</a>
+</a>
+<a title="Šifra: 9 Cena: 16000">
+<img class="imgmouse" src="img/haljina9.jpg" alt=""   />
+</a>
+</a>
+<a title="Šifra: 10 Cena: 18000">
+<img class="imgmouse" src="img/haljina10.jpg" alt=""   />
+</a>
+</a>
+<a title="Šifra: 11 Cena: 18000">
+<img class="imgmouse" src="img/haljina11.jpg" alt=""   />
+</a>
+</a>
+<a title="Šifra: 12 Cena: 15000">
+<img class="imgmouse" src="img/haljina12.jpg" alt=""   />
+</a>
+</a>
+<a title="Šifra: 13 Cena: 20000">
+<img class="imgmouse" src="img/haljina13.jpg" alt=""   />
+</a>
+
+</a>
+<a title="Šifra: 14 Cena: 21000">
+<img class="imgmouse" src="img/haljina14.jpg" alt=""   />
+</a>
+</a>
+<a title="Šifra: 15 Cena: 17000">
+<img class="imgmouse" src="img/haljina15.jpg" alt=""   />
+</a>
+</a>
+<a title="Šifra: 16 Cena: 12000">
+<img class="imgmouse" src="img/haljina16.jpg" alt=""   />
+</a>
+
+	</div>
+<hr>
+
+	
+<a href="#vrh"> Idi na vrh strane</a>	
+</body>
+
+	<footer>
+	<p class="futer">Copyright 2019. All Rights Reserved.</p>
+	</footer> 
+</html>
