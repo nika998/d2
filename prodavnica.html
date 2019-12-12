@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kupovina</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="JavaScript/jquery.js"></script>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+
+<body background = "img/poz.jpg">
+	<h2 id="vrh"></h2>
+	<header>
+		<div class="center"><img class="slikeNaslovna" src="slike/slika4.png"></div>
+			<nav>
+				<ul id = "meni">
+					<li><a href = "home.html">Početna</a></li>
+					<li><a href = "onama.html">O nama</a></li>
+					<li><a href = "prodavnica.html">Kupovina</a></li>
+					<li><a href = "katalog.html">Katalog</a></li>
+				</ul>
+			</nav>	
+	</header>
+	
+	 <div id = "forma">
+	<form action = "obavljenaKupovina.html">
+	<br></br>
+  <div class="form-group">
+    <label for="ime">Ime</label>
+    <textarea type="text" class="form-control" id="ime"  placeholder="Unesite ime" required></textarea>
+  </div>
+  
+  <div class="form-group">
+    <label for="prezime">Prezime</label>
+    <textarea class="form-control" id="prezime"  rows = "2" placeholder="Unesite prezime" required></textarea>
+  </div>
+  
+  <div class="form-group">
+    <label  for="telefon" >Broj telefona</label>
+    <textarea type="text" class="form-control" id="telefon"  placeholder="Unesite broj telefona" required></textarea>
+  </div>
+  
+  <div class="form-group">
+    <label for="email">E-mail</label>
+    <textarea type="text" class="form-control" id="email"  placeholder="Unesite email" ></textarea>
+  </div>
+  
+  <div class="form-group">
+        <label for="sifraModela">Šifra modela</label>
+        <textarea type="text" class="form-control" id="sifraModela"  placeholder="Unesite šifru modela" required></textarea>
+      </div>
+
+
+      <div class="form-group">
+        <label for="velicina">Izaberite veličinu</label>
+        <select class="form-control" id="velicina">
+          <option>XS </option>
+          <option>S</option>
+          <option>M</option>
+          <option>L</option>
+          <option>XL</option>
+              </select>
+      </div>
+    
+        
+        
+  
+  <div class="form-group">
+  
+    <p>Da li nas posećujete prvi put?</p>
+    <div class="form-check">
+      <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="prvaposeta" value="da" checked>
+        Da
+      </label>
+      <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="prvaposeta" value="ne">
+        Ne
+      </label>
+    </div>
+   
+  </div>
+  
+  
+  <div  class="form-check">
+    <label class="form-check-label">
+        
+      <input type="checkbox"  class="form-check-input" checked>
+     
+      Želim da dobijam obaveštenja o novostima i akcijama putem email-a.
+    </label>
+  </div>
+  <br> <br/>
+<button type="submit" class="btn" onclick = "javascript:provera(event)">Pošalji</button>
+</form>
+</div>
+	<a href="#vrh"> Idi na vrh strane</a>
+</body>
+
+
+	<footer>
+		<p class="futer">Copyright 2019. All Rights Reserved.</p>
+	</footer> 
+</html>
